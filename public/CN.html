@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Computer Network</title>
+        <link rel="stylesheet" href="Arithmetic.css">
+    </head>
+    <body>
+        
+        <section class="s2">
+            <h1>Computer Network</h1>
+            <nav class="s21">
+                <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Login.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Signup.html">Signup</a>
+            </nav>
+        </section>
+        <section class="s1">
+            <a href="Level1cn.html"><h3><strong>Level 1</strong></h3></a><br><br>
+            <a href="Level2cn.html"><h3><strong>Level 2</strong></h3></a><br><br>           
+        </section>
+        <div class="des1">
+            <h2>Topics : - </h2>
+                
+        </div>
+        <div class="des2">
+            <a href="Fractions"><strong>OSI Model</strong></a><br><br>
+            <a href="Percentage"><strong>Pysical Layer</strong></a><br><br>
+            <a href="Ratios"><strong>Data Link layer</strong></a><br><br>
+            <a href="Simple"><strong>Network Layer</strong></a><br><br>
+            <a href="Profit"><strong>Transport Layer</strong></a><br><br>
+            <a href="#"><strong>Presentation & Session layer</strong></a><br><br>
+
+            <a href="#"><strong>Application Layer</strong></a><br><br>
+        </div>
+        <div id="Fractions">
+            <h3>About  : OSI Model</h3>
+            <p>
+                <ul>
+                    <li>OSI stands for Open Systems Interconnection. It has been developed by ISO–  International Organization for Standardization, in the year 1984. It is a seven-layer architecture with each layer having specific functionality to perform</li><br>
+                    
+                </ul>
+            </p>
+        </div>
+        <div id="Percentage" style="margin-left: 300px;">
+            <h3>About : Pysical Layer</h3>
+            <p>
+                <ul>
+                    <li><strong>Mesh Topology: </strong> a mesh topology, every device is connected to another device via a particular channel. If suppose, N number of devices are connected with each other, then a total number of links is required to connect NC2.</li><br>
+                    <li><strong>Bus Topology: </strong>Bus topology is a network type in which every computer and network device is connected to a single cable. If N devices are connected, then the number of cables required is 1 which is known as backbone cable, and N drop lines are required.</li><br>
+                    <li><strong>Star Topology:</strong> In star topology, all the devices are connected to a single hub through a cable. If N devices are connected to each other, then the no. of cables required N.</li><br>
+                    <li><strong>Ring Topology: </strong>In this topology, it forms a ring connecting devices with exactly two neighboring devices.</li>
+                </ul>
+            </p>
+        </div>
+        <div id="Ratios">
+            <h3>About : DataLink Layer</h3>
+            <p>
+                <ul>
+                    <li><strong>Flow Control: </strong>The methods to maintain the flow of the data while the transmission is known as flow control methods. Mainly we have two approaches: </li><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li>Stop & Wait: Only one data packet can be shared over the link and the sender has to wait for the positive acknowledgment so that it can send another packet. It leads to poor efficiency and poor resource utilization.</li><BR>
+                    
+                        <li>Sliding Window Protocol<br>    Go Back N: It is also known as “conservative protocol”, and uses cumulative/piggybacking acknowledgments. The receiver window size is 1, and the sender window size is 2k -1 where K is the number of bits received for the window size in the header</li><br>
+                        <li>Selective Repeat: It accepts out-of-order packets and accepts cumulative/ independent/ piggybacking acknowledgments.  </li>
+                        <li><strong>Error Control</strong></li><br>&nbsp;&nbsp;&nbsp;
+                        <li></li>Hamming Code: It is a set of error-correction codes that can be used to detect and correct the errors that can occur when the data is moved or stored from the sender to the receiver. 
+                        <li>Redundant bits: 2r ≥ m + r + 1 where, r = redundant bit, m = data bit</li><br>
+                        <li>CRC: CRC stands for Cyclic Redundancy Check and this uses a polynomial generator on both the sender and receiver sides to detect the error in the transmitted data. </li><br>
+                        <li>Checksum: It is more reliable than other modes of error detection, it uses a checksum generator on the sender side and a checksum checker on the receiver side </li><br>
+                        <li>Framing in DLL: It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. </li><br>
+                       <li>Character/Byte Stuffing: Used when frames consist of character. If data contains ED then, a byte is stuffed into the data to differentiate it from ED. </li><br>
+                        <li>Bit stuffing: Sender stuffs a bit to break the pattern i.e. here appends a 0 in data = 011101.</li>
+            
+        
+                    </ul>
+
+            </p>
+        </div>
+        <div id="Simple">
+            <h3>About  : Network Layer</h3>
+            <p>
+                <ul>
+                    <li>Subnetting: Dividing a bigger network into a smaller network to maintain the security of the network is known as subnetting.</li><br>
+
+                        <li>Supernetting: Multiple smaller networks are combined to form a bigger network. It is mainly used in router summarization, etc. </li><br>
+                        
+                        <li>VLSM: Variable Length Subnet Mask is where the subnet design uses more than one mask in the same network which means more than one mask is used for different subnets of a single class A, B, C, or a network. It is also defined as the process of subnetting a subnet. It is used to increase the usability of subnets as they can be of variable size. </li><br>
+                        
+                        <li>Internet Control Message Protocol: Since IP does not have an inbuilt mechanism for sending error and control messages. It depends on Internet Control Message Protocol(ICMP) to provide error control.</li><br>
+                </ul>
+            </p>
+        </div>
+        <div id="Profit">
+            <h3>About  : Session Layer</h3>
+            <p>
+               <ul>
+                <li>The session layer is responsible for establishing, maintaining, and terminating sessions in a network. The session layer manages data transmission for a certain time period.</li><br>
+                    <li>The session layer is responsible for the identification of entities participating in a session.</li><br>
+                    <li>It provides synchronization services to the data stream.</li>
+               </ul>
+            </p>
+        </div>
+        <div class="quiz">
+           <center><h2>After this <br> &nbsp;&nbsp;&nbsp; </h2>Click on the levels</center>
+           <center><h2>Take the Quiz tests to Know your Learning Capability</h2></center>
+        </div><br><br><br>
+        <div class="com">
+            <center><h3>One by One complete all the levels</h3> <br> and check your results and them goes to another level</center>
+        </div>
+        <footer id="last">
+            <h4>Thank you</h4>
+        </footer>
+    </body>
+</html>

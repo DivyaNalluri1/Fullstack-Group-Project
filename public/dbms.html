@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Non Programming Languages</title>
+        <link rel="stylesheet" href="dbms.css">
+    </head>
+    <body>
+        
+        <section class="s2">
+            <h1>DBMS</h1>
+            <nav class="s21">
+                <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Login.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Signup.html">Signup</a>
+            </nav>
+        </section>
+        <section class="s1">
+            <a href="Level1dbms.html"><h3><strong>Level 1</strong></h3></a><br><br>
+            <a href="Level2dbms.html"><h3><strong>Level 2</strong></h3></a><br><br>
+            
+        </section>
+        <div class="des1">
+            <h2>Topics : - </h2>
+        </div>
+        <div class="des2">
+            <a href="#EntityRelationshipModel"><strong>Entity Relationship Model</strong></a><br><br>
+            <a href="#RelationalModel"><strong>Relational Model</strong></a><br><br>
+            <a href="#RelationalAlgebra"><strong>Relational Algebra</strong></a><br><br>
+            <a href="#FunctionalDependencies"><strong>Functional Dependencies</strong></a><br><br>
+            <a href="#Normalisation"><strong>Normalisation</strong></a><br><br>
+        </div>
+        <div id="EntityRelationshipModel">
+            <h3>About Entity Relationship Model : </h3>
+            <p>
+                The Entity Relational Model is a model for identifying entities to be represented in the database and representation of how those entities are related. The ER data model specifies enterprise schema that represents the overall logical structure of a database graphically. 
+
+The Entity Relationship Diagram explains the relationship among the entities present in the database. ER models are used to model real-world objects like a person, a car, or a company and the relation between these real-world objects. In short, the ER Diagram is the structural format of the database. 
+            </p>
+        </div>
+        <div id="RelationalModel">
+            <h3>About Relational Model :</h3>
+            <p>
+                The relational model represents how data is stored in Relational Databases. A relational database consists of a collection of tables, each of which is assigned a unique name. Consider a relation STUDENT with attributes ROLL_NO, NAME, ADDRESS, PHONE, and AGE shown in the table. 
+            </p>
+        </div>
+        <div id="RelationalAlgebra">
+            <h3>About Relational Algebra : </h3>
+            <p>
+                Relational Algebra is a procedural query language. Relational algebra mainly provides a theoretical foundation for relational databases and SQL. The main purpose of using Relational Algebra is to define operators that transform one or more input relations into an output relation. Given that these operators accept relations as input and produce relations as output, they can be combined and used to express potentially complex queries that transform potentially many input relations (whose data are stored in the database) into a single output relation (the query results). As it is pure mathematics, there is no use of English Keywords in Relational Algebra and operators are represented using symbols.
+            </p>
+        </div>
+        <div id="FunctionalDependencies">
+            <h3>About Functional Dependencies :</h3>
+            <p>
+                A functional dependency A->B in a relation holds if two tuples having same value of attribute A also have same value for attribute B. For Example, in relation STUDENT shown in table 1, Functional Dependencies 
+ 
+
+                STUD_NO->STUD_NAME, STUD_NO->STUD_PHONE hold<br>
+                but <br>
+                STUD_NAME->STUD_STATE do not hold
+            </p>
+        </div>
+        <div id="Normalisation">
+            <h3>About Normalisation :</h3>
+            <p>
+                Database normalization is the process of organizing the attributes of the database to reduce or eliminate data redundancy (having the same data but at different places). 
+
+Problems because of data redundancy: Data redundancy unnecessarily increases the size of the database as the same data is repeated in many places. Inconsistency problems also arise during insert, delete and update operations. 
+
+Functional Dependency: Functional Dependency is a constraint between two sets of attributes in relation to a database. A functional dependency is denoted by an arrow (→). If an attribute A functionally determines B, then it is written as A → B. 
+
+For example, employee_id → name means employee_id functionally determines the name of the employee. As another example in a timetable database, {student_id, time} → {lecture_room}, student ID and time determine the lecture room where the student should be. 
+            </p>
+        </div>
+        <div class="quiz">
+           <center><h2>After this <br> &nbsp;&nbsp;&nbsp; </h2>Click on the levels</center>
+           <center><h2>Take the Quiz tests to Know your Learning Capability</h2></center>
+        </div><br><br><br>
+        <div class="com">
+            <center><h3>One by One complete all the levels</h3> <br> and check your results and them goes to another level</center>
+        </div>
+        <footer id="last">
+            <h4>Thank you</h4>
+        </footer>
+    </body>
+</html>

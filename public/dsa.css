@@ -1,0 +1,97 @@
+
+.s1
+{
+    height: 100%;
+    width: 250px ;
+    background-color:bisque;
+    padding-top: 150px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+    
+    
+}
+.s1 a{
+    text-decoration: none;
+}
+.s2
+{
+    height: 20%;
+    background-color:blanchedalmond;
+    padding-left: 570px;
+    font-size: 20px;
+    padding-top: 25px;
+    
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+.s21
+{
+    float: right;
+    padding-right: 140px;
+    font-size: 20px;
+    
+}
+.s21 a{
+    text-decoration: none;
+    color:crimson;
+}
+.des1 
+{
+    margin-left: 550px;
+    margin-top: -750px;
+    font-size: 30px;
+
+}
+.des2 {
+    float: right;
+    margin-right: 470px;    
+    font-size: 20px;
+
+}
+.des2 a {
+    text-decoration: none;
+}
+#Arrays
+{
+    margin-left: 300px;  
+    margin-top: 400px;
+    
+}
+#Stacks{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#Queues
+{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+#LinkedLists
+{
+    margin-top: 5px;
+    margin-left: 300px;
+}
+#Trees
+{
+    margin-top: -5px;
+    margin-left:300px ;
+}
+.quiz
+{
+    margin-left: 300px;
+    font-style: italic;    
+}
+#last
+{
+    
+    float: right;
+}
+.com{
+    font-style: italic;
+    margin-left: 300px;
+}
