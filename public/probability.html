@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Probability</title>
+        <link rel="stylesheet" href="probability.css">
+    </head>
+    <body>
+        
+        <section class="s2">
+            <h1>Probability</h1>
+            <nav class="s21">
+                <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Login.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Signup.html">Signup</a>
+            </nav>
+        </section>
+        <section class="s1">
+            <a href="Level1Pro.html"><h3><strong>Level 1</strong></h3></a><br><br>
+            <a href="Level2Pro.html"><h3><strong>Level 2</strong></h3></a><br><br>
+            
+        </section>
+        <div class="des1">
+            <h2>Topics : - </h2>
+        </div>
+        <div class="des2">
+            <a href="#ConditionalProbability"><strong>Conditional Probability</strong></a><br><br>
+            <a href="#ProbabilityDistributions"><strong>Probability Distributions</strong></a><br><br>
+            <a href="#BayesianProbability"><strong>Bayesian Probability</strong></a><br><br>
+            <a href="#MarkovChains"><strong>Markov Chains</strong></a><br><br>
+            <a href="#RandomVariables"><strong>Random Variables</strong></a><br><br>
+        </div>
+        <div id="ConditionalProbability">
+            <h3>Formulas on Conditional Probability : </h3>
+            <p>
+                
+                <ul>
+                    <li>Conditional Probability Formula:   P(A|B) = P(A and B) / P(B)</li><br>
+                    <li>Multiplication Rule for Conditional Probability:  P(A and B) = P(B) * P(A|B)</li><br>
+                    <li>The fraction a/b represents a equal parts out of a total of b equal parts.</li><br>
+                    <li>Bayes' Theorem:   P(A|B) = [P(B|A) * P(A)] / P(B)</li><br>
+                    <li> Law of Total Probability:   P(A) = Σ [P(A|B) * P(B)] (sum over all possible events B that partition the sample space)</li><br>
+                    <li>Independence of Events:      If A and B are independent, then P(A and B) = P(A) * P(B)</li><br>
+                    
+                </ul>
+            </p>
+        </div>
+        <div id="ProbabilityDistributions">
+            <h3>Formulas on Probability Distributions:</h3>
+            <p>
+                <ul>
+                   <li> Binomial Probability Distribution:  P(X = k) = C(n, k) * p^k * (1-p)^(n-k), where X is a binomial random variable, n is the number of trials, k is the number of successful outcomes, and p is the probability of success.</li><br>
+                   <li>Normal Distribution Probability Density Function:   f(x) = (1 / (σ√(2π))) * e^(-((x-μ)^2 / (2σ^2))), where μ is the mean and σ is the standard deviation.</li><br>
+                   <li>Poisson Probability Mass Function:   P(X = k) = (e^(-λ) * λ^k) / k!, where X is a Poisson-distributed random variable, and λ is the average rate of occurrence.</li><br>
+                   <li>Exponential Probability Density Function:   f(x) = λ * e^(-λx), where X is exponentially distributed with a rate parameter λ.</li><br>
+                   <li>Uniform Distribution Probability Density Function:  f(x) = 1 / (b - a) for a ≤ x ≤ b, where X is uniformly distributed between a and b.</li><br>
+                   
+                </ul>
+            </p>
+        </div>
+        <div id="BayesianProbability">
+            <h3>Formulas on Bayesian Probability : </h3>
+            <p>
+                <ul>
+                   <li>Prior Probability:  P(A), the initial probability of an event A</li><br>
+                   <li>Likelihood:  P(B|A), the probability of observing evidence B given that A is true.
+                 </li><br>
+                   <li>Posterior Probability:  P(A|B), the updated probability of A given the evidence B, calculated using Bayes' Theorem.</li><br>
+                   <li>Law of Total Probability (Extension):  P(A) = Σ [P(A|B) * P(B)], where the sum is taken over all possible events B, even when A and B are conditional probabilities themselves.
+                 </li><br>
+                   <li>Maximum A Posteriori (MAP) Estimation:  Finding the value of A that maximizes P(A|B) in Bayesian inference.
+                 </li><br>
+                   
+                </ul>
+            </p>
+        </div>
+        <div id="MarkovChains">
+            <h3>Markov Chains</h3>
+            <p>
+                <ul>
+                    <li>Transition Probability Matrix: A square matrix P, where P[i][j] represents the probability of transitioning from state i to state j.</li><br>
+                    <li>Chapman-Kolmogorov Equation:  P^(n) = P(1) * P(2) * ... * P(n), which describes the probability of transitioning from state i to state j in n steps.</li><br>
+                    <li>Stationary Distribution:  π = πP, where π is the stationary distribution vector, and P is the transition probability matrix.</li><br>
+                    <li>First-step Analysis:  Probability of reaching a particular state after the first step in a Markov chain, P(X = j | X(0) = i) = P(i, j).</li><br>
+                    <li> Markov Chain Absorption Probability:    The probability of being absorbed into a specific state starting from a certain state in a absorbing Markov chain.</li><br>
+
+                </ul>
+            </p>
+        </div>
+        <div id="RandomVariables">
+            <h3>Formulas on Random Variables</h3>
+            <p>
+                <ul>
+                   <li>Expected Value (Mean) of a Discrete Random Variable (X):  E(X) = Σ [x * P(X=x)]</li><br>
+                   <li>Variance of a Random Variable (X):  Var(X) = E[(X - μ)^2], where μ is the mean of X. </li><br>
+                   <li>Expected Value of a Function of a Random Variable:  E[g(X)] = Σ [g(x) * P(X=x)]</li><br>
+                   <li>Linearity of Expectation :  E(aX + bY) = aE(X) + bE(Y) for constants a and b.</li><br>
+                   <li>Variance of a Sum of Random Variables:  Var(X + Y) = Var(X) + Var(Y) if X and Y are independent</li><br>
+                </ul>
+            </p>
+        </div>
+        <div class="quiz">
+           <center><h2>After this <br> &nbsp;&nbsp;&nbsp; </h2>Click on the levels</center>
+           <center><h2>Take the Quiz tests to Know your Learning Capability</h2></center>
+        </div><br><br><br>
+        <div class="com">
+            <center><h3>One by One complete all the levels</h3> <br>   and check your results and them goes to another level</center>
+        </div>
+        <footer id="last">
+            <h4>Thank you</h4>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
